@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PD Tournament Dashboard</title>
+<style>
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+.container {
+    margin-top: 50px;
+}
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+button {
+    padding: 10px 20px;
+    background: #22c55e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🧠 Prisoner's Dilemma Tournament</h1>
+
+```
+<div class="card">
+    <h3>About</h3>
+    <p>Simulation of Axelrod's tournament using Information Theory.</p>
+</div>
+
+<div class="card">
+    <h3>Strategies</h3>
+    <p>TFT, ALLD, ALLC, Grim, Pavlov, Random, Info-Aware</p>
+</div>
+
+<div class="card">
+    <h3>Run Simulation</h3>
+    <button onclick="run()">Simulate</button>
+    <p id="output"></p>
+</div>
+```
+
+</div>
+
+<script>
+function run() {
+    document.getElementById("output").innerText =
+        "Run the Python script to see full results!";
+}
+</script>
+
+</body>
+</html>
