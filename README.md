@@ -85,25 +85,6 @@ Uses **information theory** to classify opponents:
 python pd_tournament.py
 ```
 
----
-
-## 🌐 Interactive Dashboard
-
-Open in browser:
-
-```bash
-web/index.html
-```
-
----
-
-## 📸 Output Preview
-
-> Add your screenshot here 👇
-
-```bash
-assets/screenshot.png
-```
 
 ---
 
